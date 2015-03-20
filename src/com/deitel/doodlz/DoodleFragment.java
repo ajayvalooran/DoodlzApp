@@ -4,6 +4,8 @@ package com.deitel.doodlz;
 
 import android.app.Fragment;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -24,6 +26,7 @@ public class DoodleFragment extends Fragment
    private float currentAcceleration; 
    private float lastAcceleration; 
    private boolean dialogOnScreen = false;
+   private static int RESULT_LOAD_IMAGE = 1;
    
    // value used to determine whether user shook the device to erase
    private static final int ACCELERATION_THRESHOLD = 100000;
@@ -174,6 +177,15 @@ public class DoodleFragment extends Fragment
          case R.id.print:     
             doodleView.printImage(); // print the current images
             return true; // consume the menu event
+         
+         case R.id.bgmImg:     
+	                   Intent i = new Intent(
+	                   Intent.ACTION_PICK,
+	                   android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+	                   startActivityForResult(i, RESULT_LOAD_IMAGE);
+         return true; // consume the menu event
+             
+          
       } // end switch
 
       return super.onOptionsItemSelected(item); // call super's method

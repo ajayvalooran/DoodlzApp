@@ -268,6 +268,7 @@ int id alphaSeekBar 0x7f090050
 int id alphaTextView 0x7f09004f
 int id always 0x7f09000f
 int id beginning 0x7f090016
+int id bgmImg 0x7f090061
 int id blueSeekBar 0x7f090056
 int id blueTextView 0x7f090055
 int id bottom 0x7f09001e
@@ -313,7 +314,7 @@ int id middle 0x7f090018
 int id never 0x7f090012
 int id none 0x7f090019
 int id normal 0x7f090007
-int id print 0x7f090061
+int id print 0x7f090062
 int id progress_circular 0x7f090004
 int id progress_horizontal 0x7f090005
 int id radio 0x7f090040
@@ -403,6 +404,7 @@ int string label_blue 0x7f0a0017
 int string label_green 0x7f0a0016
 int string label_red 0x7f0a0015
 int string line_imageview_description 0x7f0a0013
+int string menuitem_bgm_image 0x7f0a0024
 int string menuitem_clear 0x7f0a0018
 int string menuitem_color 0x7f0a0019
 int string menuitem_eraser 0x7f0a001a

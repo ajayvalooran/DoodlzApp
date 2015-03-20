@@ -7,6 +7,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +23,7 @@ public class ColorDialogFragment extends DialogFragment
    private SeekBar blueSeekBar;
    private View colorView;
    private int color;
+   
    
    // create an AlertDialog and return it
    @Override
@@ -85,7 +87,8 @@ public class ColorDialogFragment extends DialogFragment
  	            } 
  	         } 
  	      ); // end call to setPositiveButton2
-      
+   
+            
       return builder.create(); // return dialog
    } // end method onCreateDialog   
       

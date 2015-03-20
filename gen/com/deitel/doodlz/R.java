@@ -1302,6 +1302,7 @@ containing a value of this type.
         public static final int alphaTextView=0x7f09004f;
         public static final int always=0x7f09000f;
         public static final int beginning=0x7f090016;
+        public static final int bgmImg=0x7f090061;
         public static final int blueSeekBar=0x7f090056;
         public static final int blueTextView=0x7f090055;
         public static final int bottom=0x7f09001e;
@@ -1347,7 +1348,7 @@ containing a value of this type.
         public static final int never=0x7f090012;
         public static final int none=0x7f090019;
         public static final int normal=0x7f090007;
-        public static final int print=0x7f090061;
+        public static final int print=0x7f090062;
         public static final int progress_circular=0x7f090004;
         public static final int progress_horizontal=0x7f090005;
         public static final int radio=0x7f090040;
@@ -1494,6 +1495,7 @@ containing a value of this type.
         public static final int label_green=0x7f0a0016;
         public static final int label_red=0x7f0a0015;
         public static final int line_imageview_description=0x7f0a0013;
+        public static final int menuitem_bgm_image=0x7f0a0024;
         public static final int menuitem_clear=0x7f0a0018;
         public static final int menuitem_color=0x7f0a0019;
         public static final int menuitem_eraser=0x7f0a001a;

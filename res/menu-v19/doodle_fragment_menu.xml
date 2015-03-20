@@ -30,5 +30,10 @@
         android:showAsAction="ifRoom"
         android:title="@string/menuitem_print">
     </item>
-
+	
+     <item
+        android:id="@+id/bgmImg"
+        android:showAsAction="ifRoom"
+        android:title="@string/menuitem_bgm_image">
+    </item>
 </menu>
